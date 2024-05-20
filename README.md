@@ -12,8 +12,10 @@ cd build
 make -j8
 ```
 
-使用 vscode 的同学安装 c++ testmate 这个插件之后，就可以直接在侧边栏看到如下图所示的测试，点击运行即可看到耗时和正确情况。也可以直接在内部以 debug 模式调试。可以正常打Log。 
+使用 vscode 的同学安装 c++ testmate 这个插件之后，就可以直接在侧边栏看到如下图所示的测试，点击运行即可看到耗时和正确情况。也可以直接在内部以 debug 模式调试。可以正常打 Log。
 
 ![image-20240520202425553](./img1.png)
 
 ![image-20240520202607651](./img2.png)
+
+附注：simulated-persistence 测试需要自己实现 reset 和 rebuild 这两个清空和重建缓存的 API
